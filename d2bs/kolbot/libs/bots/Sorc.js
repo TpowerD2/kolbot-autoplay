@@ -3423,7 +3423,7 @@ function rescue() {
         }
     }
     Town['goToTown'](5);
-    Town['move'](NPC['Qual-Kehk']);
+    Town['move'](NPC['Qual_Kehk']);
     sor750 = getUnit(1, 'Qual-Kehk');
     sor750['openMenu']();
     me['cancel']();

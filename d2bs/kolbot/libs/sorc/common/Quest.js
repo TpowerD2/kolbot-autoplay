@@ -236,7 +236,7 @@ const Quest = function () {
             }
             print('time to respec');
             me['overhead']('time to respec');
-            let qst271 = qst87['lut12'](getScript, 'libs/sorc/tools/sorcbuild.js');
+            let qst271 = qst87['lut12'](getScript, 'libs/sorc/common/sorcbuild.js');
             if (qst271 && qst271['running']) {
                 qst271['stop']();
             }
@@ -246,7 +246,7 @@ const Quest = function () {
                 qst87['lut13'](delay, qst87['lut14'](me['ping'], 0x2) + 0x3e8);
                 qst87['lut5'](sendPacket, 0x1, 0x40);
             }
-            load('libs/sorc/tools/sorcbuild.js');
+            load('libs/sorc/common/sorcbuild.js');
             qst276 = me['getStat'](0x5);
             for (let qst282 = 0x0; qst282 < 0x5; qst282 += 0x1) {
                 if (qst276 > me['getStat'](0x5)) {
