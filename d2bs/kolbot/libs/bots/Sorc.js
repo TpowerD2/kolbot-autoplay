@@ -718,6 +718,9 @@ function countess(sor108, sor109) {
 }
 
 function andariel(sor120, sor121) {
+    if (me.playertype == 1 && me.charlvl < 15) {
+        return false;
+    }
     if (Packet['checkQuest'](6, 1)) {
         Quest['talkTo']('warriv', 'warriv');
         Quest['changeAct'](2);
@@ -1614,6 +1617,9 @@ function duriel(sor231, sor232) {
 }
 
 function lamessen() {
+    if (me.playertype == 1 && me.diff == 2) {
+        return true;
+    }
     if (Packet.checkQuest(17, 0)) {
         return true;
     }
