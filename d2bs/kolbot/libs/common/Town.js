@@ -102,6 +102,7 @@ var Town = {
 		Item.autoEquip();
 		Item.autoEquipSecondary();
 		Item.autoEquipMerc();
+		Cubing.cursorCheck();
 		this.stash(true);
 		this.invSort();
 
