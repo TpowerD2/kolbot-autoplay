@@ -3651,7 +3651,7 @@ function ancients(sor784, sor785) {
             }
         }
     };
-    Config['LifeChicken'] = 10;
+    Config['LifeChicken'] = me.playertype ? 25 : 10;
     Config['TownHP'] = 0;
     Config['TownCheck'] = false;
     Pather['teleport'] = true;
