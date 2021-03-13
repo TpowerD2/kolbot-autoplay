@@ -15,7 +15,7 @@ stats: [
 skills: [
 [37, 1, false], // warmth
 [42, 1, false], // static
-[43, 1, false],	// telekinesis
+[43, 1, false], // telekinesis
 [54, 1, false], // teleport
 [47, 20,false], // fireball
 [36, 9, false], // firebolt
