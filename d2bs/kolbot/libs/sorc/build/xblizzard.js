@@ -24,6 +24,6 @@ skills: [
 [45, 20, true ], // ice blast
 [55, 20, true ], // glacial spike
 [39, 20, true ], // ice bolt
-[65, 20, true ]	 // cold mastery
+[65, 20, true ]  // cold mastery
 ]
 };
